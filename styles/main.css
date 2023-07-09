@@ -76,7 +76,6 @@
     grid-column: 9 / -1;
   }
   .card__container {
-    grid-row: 3;
     
     flex-direction: row;
     display: flex;
