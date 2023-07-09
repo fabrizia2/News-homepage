@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/mobileView.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/desktopView.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | News homepage</title>
-  <link rel="stylesheet" href="./styles/main.css">
-</head>
-<body>
+    <title>Frontend Mentor | News homepage</title>
+  </head>
+  <body>
     <nav class="navbar">
       <div class="navbar-brand">
         <img src="assets/images/logo.svg" alt="logo-img" />
@@ -94,25 +100,6 @@
         <p>How the pandemic has sparked fresh opportunities.</p>
       </div>
     </div>
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Renish Okago</a>.
-  </div>
-
-  <script>
-    const togglerBtn = document.querySelector(".navbar-toggler-icon");
-    const menu = document.querySelector(".navbar-nav");
-    togglerBtn.addEventListener("click", (e) => {
-      menu.classList.toggle("active");
-      document.body.classList.toggle("active");
-      if (document.body.classList.contains("active")) {
-        e.target.setAttribute("src", "assets/images/icon-menu-close.svg");
-      } else {
-        e.target.setAttribute("src", "assets/images/icon-menu.svg");
-      }
-    });
-
-</script>
-</body>
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
