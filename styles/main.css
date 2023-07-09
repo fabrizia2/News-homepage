@@ -77,14 +77,11 @@
   }
   .card__container {
     display: flex;
-    grid-row: 3;
-    grid-column: 1 / -1;
-    flex-direction: row;
-    
-    width: 100%;
+    flex-wrap: nowrap;
   }
+  
   .card {
-    width: 100%;
+    flex: 0 0 auto;
   }
   .card h3 {
     font-size: 1.15rem;
